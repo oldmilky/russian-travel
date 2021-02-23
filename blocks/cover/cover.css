@@ -12,7 +12,7 @@
 	margin-top: 90px;
 	margin-right: auto;
 	margin-left: auto;
-	margin-bottom: 92px;
+	margin-bottom: 0;
 }
 .cover::after {
 	position: absolute;
@@ -48,7 +48,6 @@
 	.cover {
 		min-height: 490px;
 		margin-top: 66px;
-		margin-bottom: 64px;
 	}
 }
 @media screen and (max-width: 544px) {

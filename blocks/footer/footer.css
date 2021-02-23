@@ -1,7 +1,7 @@
 .footer {
   display: flex;
   justify-content: space-between;
-  padding: 100px 48px 0;
+  padding: 92px 48px 24px;
 }
 
 @media screen and (max-width: 956px) {
@@ -18,7 +18,7 @@
 
 @media screen and (max-width: 768px) {
   .footer {
-    padding: 75px 24px 0;
+    padding: 75px 24px 24px;
   }
 }
 
@@ -30,6 +30,6 @@
 
 @media screen and (max-width: 576px) {
   .footer {
-    padding: 64px 16px 0;
+    padding: 64px 16px 24px;
   }
 }
