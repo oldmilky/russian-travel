@@ -1,5 +1,6 @@
 .page__cover {
   margin: 90px 48px 0;
+  text-decoration: none;
 }
 @media screen and (max-width: 1152px) {
   .page__cover {

@@ -11,7 +11,7 @@
   <div class="page">
     <header class="header">
       <img src="./images/header-logo.svg" alt="Лого Российских границ" class="header__logo">
-      <ul class="list-links">
+      <ul class="header list-links">
         <li class="list-links__item">
           <a class="list-links__link list-links__link_active" href="#" target="_self">Ru</a> <!-- указал target self, ибо не проходил код -->
         </li>
@@ -26,7 +26,7 @@
         <h1 class="lead__title">Путешествия по России</h1>
         <p class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
         <img class="lead__image" src="./images/lead__image.png" alt="Вагон поезда">
-        <p class="lead__caption">ВАША ПОЛКА - ВЕРХНЯЯ</p>
+        <p class="lead__caption">ваша полка - верхняя</p>
       </section>
 
       <section class="intro">
@@ -134,11 +134,12 @@
         </div>
       </section>
 
-      <!-- Вообщем, помогала мне вся команда, с моей проблемой. Это было не легко, и сказали что обертка как section не обязательна, поэтому убрал ее -->
-        <a href="#" class="cover page__cover" target="_blank">
+      <section class="cover page__cover">
+        <a href="#" class="cover__link" target="_blank">
           <h2 class="cover__title">До Байкала «на собаках»</h2>
           <p class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на электричках.</p>
         </a>
+      </section>  
     </main>
 
     <footer class="footer">
