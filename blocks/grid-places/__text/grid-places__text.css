@@ -11,6 +11,7 @@
   .grid-places__text {
     font-size: 16px;
     line-height: 26px;
+    margin: 0 24px;
   }
 }
 @media screen and (max-width: 576px){
