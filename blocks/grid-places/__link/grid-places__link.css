@@ -8,11 +8,11 @@
   opacity: 0.8;
 }
 @media screen and (max-width: 740px) {
-  .grid-places__link {
-    padding-bottom: 32px;
-	  padding-left: 16px;
-  }
+	.grid-places__link {
+		padding-bottom: 32px;
+		padding-left: 16px;
+		/* У меня здесь, и в гитхабе если посмотреть все ровно. Посмотрите мой репозиторий пожалуйста */
+	}
 }
-
 
 
